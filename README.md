@@ -32,8 +32,11 @@ Words that had no Elvish translation, and thus appear in the Elvish text file as
 the encapsulating symbols, so they return to their original state.
 
 The folder stories contains sets of example files. There are three levels.
+
 simplestory1
+
 simplestory2
+
 story1
   
 In each folder there is a story file, an Elvish translation file, and a back to English file. These were given as
@@ -44,5 +47,6 @@ and is used to evaluate the speed of the program.
 
 For testing the speed using huge.txt, if compiling from source, the flag -03 should be used, as this improves the
 speed greatly. Example:
+
 gcc -o EnglishToElvishTranslator.exe -O3 main.cpp Translator.cpp
 
