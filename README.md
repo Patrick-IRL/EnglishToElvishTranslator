@@ -31,10 +31,10 @@ Once the file has been fully translated, the same is repeated, but translating t
 Words that had no Elvish translation, and thus appear in the Elvish text file as *word*, are simply written without
 the encapsulating symbols, so they return to their original state.
 
-The folder stories contains sets of example files. There are three levels.
-  simplestory1
-  simplestory2
-  story1
+The folder stories contains sets of example files. There are three levels.\n
+  simplestory1\n
+  simplestory2\n
+  story1\n
   
 In each folder there is a story file, an Elvish translation file, and a back to English file. These were given as
 examples, but can also be used to test by running the input file and testing the outputs against those supplied by
