@@ -18,6 +18,10 @@ In order to run the program to translate a file called story.txt, one must enter
     EnglishToElvishTranslator.exe story.txt
 This of course assumes that the command is executed from the executable file's location.
 
+The text file englishtoelvish.txt in the root directory holds a list of English words and their Elvish translation.
+This is loaded by the program when the Translator object is created, and is used to create two STL Maps in memory,
+one for English>Elvish, and one for Elvish>English.
+
 main.cpp is written such that it reads the input file one line at a time, and the line is sent to the translation
 function, toElvish. The toElvish function then parses the line, sending each word to the translateToElvish function.
 translateToElvish returns words that have been translated, or if there is no translation, it returns the English word
